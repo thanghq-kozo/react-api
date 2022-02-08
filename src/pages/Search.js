@@ -1,4 +1,5 @@
-import './Search.css'
+import MultiPlayer from "../components/MultiPlayer";
+import "./Search.css";
 function Search(props) {
   let data = props.data;
   return (
@@ -38,7 +39,27 @@ function Search(props) {
               <b>Definitions:</b>
               <br />
               {data.definitions.map((text, i) => {
-                return <><span className="span-content">- {text}</span><br /></>
+                return (
+                  <div className="div-content">
+                    <span>{i + 1 + ". " + text}</span>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="mb-3">
+              <b>Audios:</b>
+              <br />
+              <MultiPlayer urls={data.audios} />
+            </div>
+            <div className="mb-3">
+              <b>Exams:</b>
+              <br />
+              {data.exams.map((text, i) => {
+                return (
+                  <div className="div-content">
+                    <span key={i}>{text}</span>
+                  </div>
+                );
               })}
             </div>
           </div>
