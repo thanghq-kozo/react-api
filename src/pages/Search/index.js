@@ -1,7 +1,7 @@
-import MultiPlayer from "../components/MultiPlayer";
+import MultiPlayer from "../../components/MultiPlayer";
 import "./Search.css";
 function Search(props) {
-  let data = props.data;
+  const data = props.data;
   return (
     <div
       className="login-form my-5"
@@ -21,12 +21,12 @@ function Search(props) {
               <br />
               <b>&emsp;WordFamily:&emsp;</b>
               {data.wordFam["wordFamily"].map((text, i) => {
-                return <span>{text}&emsp;</span>;
+                return <span key={i}>{text}&emsp;</span>;
               })}
               <br />
               <b>&emsp;WordFamilyRaw:&emsp;</b>
               {data.wordFam["wordFamilyRaw"].map((text, i) => {
-                return <span>{text}&emsp;</span>;
+                return <span key={i}>{text}&emsp;</span>;
               })}
             </div>
             <div className="mb-3">
@@ -40,7 +40,7 @@ function Search(props) {
               <br />
               {data.definitions.map((text, i) => {
                 return (
-                  <div className="div-content">
+                  <div key={i} className="div-content">
                     <span>{i + 1 + ". " + text}</span>
                   </div>
                 );
@@ -56,7 +56,7 @@ function Search(props) {
               <br />
               {data.exams.map((text, i) => {
                 return (
-                  <div className="div-content">
+                  <div key={i} className="div-content">
                     <span key={i}>{text}</span>
                   </div>
                 );
