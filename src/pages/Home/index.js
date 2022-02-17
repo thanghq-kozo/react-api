@@ -65,7 +65,7 @@ function HomePage() {
               />
             </div>
             <div className="text-center">
-              <Button data={{ name: "Search" }} onClick={handleSearch} />
+              <Button data={{ name: "Search" }} handleClick={handleSearch} />
             </div>
           </div>
         </div>

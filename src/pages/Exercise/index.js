@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 import Search from "../Search";
 import Suggest from "../Suggest";
 import { useState } from "react";
-import Word from "../../components/Word";
+import Word from "../../components/WordVi";
 import data from "../../data.json";
 
 const DEFINE = {
@@ -103,20 +103,20 @@ function Exercise() {
               {isNext >= DEFINE.TRY_LEARN || result ? (
                 <Button
                   data={{ name: textNextFinish, className: "btn-secondary" }}
-                  onClick={handleNext}
+                  handleClick={handleNext}
                 />
               ) : (
                 <span>
                   <Button
                     isShow={isClickButton}
                     data={{ name: "Suggest" }}
-                    onClick={handleSuggest}
+                    handleClick={handleSuggest}
                   />
 
                   <Button
                     isShow={isClickButton}
                     data={{ name: "Submit" }}
-                    onClick={handleSubmit}
+                    handleClick={handleSubmit}
                   />
                 </span>
               )}

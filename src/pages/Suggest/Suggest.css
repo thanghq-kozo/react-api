@@ -2,3 +2,11 @@
     margin-left: 10px;
     padding-left: 10px;
 }
+
+.definition-upper::first-letter {
+    text-transform: uppercase;
+}
+
+.definition-upper {
+    margin: unset;
+}

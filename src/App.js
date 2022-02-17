@@ -1,12 +1,14 @@
-import Exercise from "./pages/Exercise";
-// import HomePage from "./pages/Home";
+// import Exercise from "./pages/Exercise";
+import HomePage from "./pages/Home";
+import { useState } from "react";
+import Review from "./pages/Review";
 
 function App() {
-  
+  const [review, setReview] = useState(true)
   return (
     <div>
-      <Exercise/>
-      {/* <HomePage/> */}
+      {review ? <Review setReview={setReview}/> : <HomePage/>}
+      {/* <Exercise/> */}
     </div>
   );
 }
