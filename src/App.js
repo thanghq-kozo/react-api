@@ -1,11 +1,13 @@
-import Exercise from "./pages/Exercise";
+// import Exercise from "./pages/Exercise";
 // import HomePage from "./pages/Home";
 
+import Review from "./pages/Review";
+
 function App() {
-  
   return (
     <div>
-      <Exercise/>
+      <Review />
+      {/* <Exercise/> */}
       {/* <HomePage/> */}
     </div>
   );

@@ -2,12 +2,12 @@ import "./Button.css";
 import React from "react";
 
 function Button(props) {
-  const { data, onClick, isShow } = props;
+  const { data, handleClick, isShow } = props;
 
   return (
     <button
       disabled={isShow}
-      onClick={onClick}
+      onClick={handleClick}
       id={data.name}
       className={`btn ${data.className || "btn-primary"} button`}
     >

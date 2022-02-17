@@ -1,7 +1,7 @@
 [{
         "word": "hello",
-        "mean": "Xin Chao",
-        "syllable": "Hello!",
+        "mean": "xin chào",
+        "syllable": "hel-lo",
         "wordFam": {
             "wordFamilyRaw": [],
             "wordFamily": [
@@ -49,7 +49,7 @@
     },
     {
         "word": "strategy",
-        "mean": "Chien Luoc",
+        "mean": "chiến lược",
         "syllable": "strat‧e‧gy",
         "wordFam": {
             "wordFamilyRaw": [
@@ -121,7 +121,7 @@
     },
     {
         "word": "beautiful",
-        "mean": "Xinh Dep",
+        "mean": "xinh đẹp",
         "syllable": "beau‧ti‧ful",
         "wordFam": {
             "wordFamilyRaw": [
@@ -194,7 +194,7 @@
     },
     {
         "word": "information",
-        "mean": "Thong Tin",
+        "mean": "thông tin",
         "syllable": "in‧for‧ma‧tion",
         "wordFam": {
             "wordFamilyRaw": [
@@ -251,7 +251,7 @@
     },
     {
         "word": "open",
-        "mean": "Mo",
+        "mean": "mở",
         "syllable": "o‧pen",
         "wordFam": {
             "wordFamilyRaw": [
@@ -549,7 +549,7 @@
     },
     {
         "word": "significant",
-        "mean": "Dang Ke",
+        "mean": "đáng kể",
         "syllable": "sig‧nif‧i‧cant",
         "wordFam": {
             "wordFamilyRaw": [
