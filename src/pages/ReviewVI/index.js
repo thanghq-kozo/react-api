@@ -1,16 +1,16 @@
 import Input from "../../components/Input";
 import Button from "../../components/Button";
-import Search from "../Search";
-import Suggest from "../Suggest";
+import Search from "../../components/Search";
+import Suggest from "../../components/Suggest";
 import { useState } from "react";
 import Word from "../../components/WordVi";
-import data from "../../data.json";
+import review from "../../review.json";
 
 const DEFINE = {
   TRY_LEARN: 3,
 };
 
-function Exercise() {
+function ReviewVI(props) {
   const [result, isResult] = useState(false);
   const [suggest, setSuggest] = useState(false);
   const [isClickButton, setIsClickButton] = useState(false);
@@ -19,7 +19,7 @@ function Exercise() {
   const [isNext, setIsNext] = useState(0);
 
   const [values, setValues] = useState({ answer: "" });
-  const [wordInfo, setWordInfo] = useState(data[data.length - 1]);
+  const [wordInfo, setWordInfo] = useState(review[review.length - 1]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -56,11 +56,15 @@ function Exercise() {
     setSuggest(false);
     setDisabled(false);
     setIsNext(0);
-    data.pop();
+    review.pop();
     setValues({ answer: "" });
-    if (data.length !== 0) setWordInfo(data[data.length - 1]);
-    if (data.length === 1) setTextNextFinish("Finish");
-    if (data.length === 0) alert("Congratulations");
+    if (review.length !== 0) setWordInfo(review[review.length - 1]);
+    if (review.length === 1) setTextNextFinish("Finish");
+    if (review.length === 0) {
+      alert("Congratulations");
+      props.setReviewVI(false);
+      props.setReviewEI(false);
+    }
     toggleButton();
   };
 
@@ -130,4 +134,4 @@ function Exercise() {
   );
 }
 
-export default Exercise;
+export default ReviewVI;

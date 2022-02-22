@@ -9,8 +9,12 @@ function BtnState(props) {
     props.setDataWord(dataWord);
     props.setWordInfo(dataWord[dataWord.length - 1]);
     props.setResult(false);
-    if (dataWord.length === 0) alert("Done review");
+    if (dataWord.length === 0) alert("Done review en");
     props.setValues({ answer: "" });
+    if (dataWord.length === 0) {
+      props.setReviewEN(false);
+      props.setReviewVI(false);
+    }
   };
 
   const handleAgain = () => {
@@ -20,17 +24,14 @@ function BtnState(props) {
 
   const handleHard = () => {
     handleNext();
-    if (dataWord.length === 0) props.setReview(false);
   };
 
   const handleGood = () => {
     handleNext();
-    if (dataWord.length === 0) props.setReview(false);
   };
 
   const handleEasy = () => {
     handleNext();
-    if (dataWord.length === 0) props.setReview(false);
   };
 
   return (

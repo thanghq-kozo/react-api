@@ -3,11 +3,11 @@ import WordLearn from "../../components/WordLearn";
 import MultiPlayer from "../../components/MultiPlayer";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
-import Suggest from "../Suggest";
+import Suggest from "../../components/Suggest";
 import data from "../../review.json";
 import BtnState from "../../components/BtnState";
 
-function Review(props) {
+function ReviewEN(props) {
   const [wordInfo, setWordInfo] = useState(data[data.length - 1]);
   const [dataWord, setDataWord] = useState(data);
   const [result, setResult] = useState(false);
@@ -29,7 +29,7 @@ function Review(props) {
   const handleSubmit = async () => {
     const isCorrect = compareString(values.answer, wordInfo.word);
     setResult(isCorrect);
-    if(!isCorrect) alert("Please check your answer again")
+    if (!isCorrect) alert("Please check your answer again");
   };
 
   const handleNext = async () => {
@@ -79,7 +79,8 @@ function Review(props) {
                   dataWord={dataWord}
                   setDataWord={setDataWord}
                   setResult={setResult}
-                  setReview={props.setReview}
+                  setReviewEN={props.setReviewEN}
+                  setReviewVI={props.setReviewVI}
                   setValues={setValues}
                 />
               ) : (
@@ -102,4 +103,4 @@ function Review(props) {
   );
 }
 
-export default Review;
+export default ReviewEN;

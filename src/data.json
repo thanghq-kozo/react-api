@@ -1,4 +1,122 @@
 [{
+        "word": "refrigerator",
+        "mean": "tủ lạnh",
+        "syllable": "re‧fri‧ge‧ra‧tor",
+        "wordFam": {
+            "wordFamilyRaw": [],
+            "wordFamily": [
+                "refrigerator"
+            ]
+        },
+        "pronounce": "rɪˈfrɪdʒəreɪtə",
+        "type": "noun",
+        "definitions": [
+            " a large piece of electrical kitchen equipment, shaped like a cupboard, used for keeping food and drink cool"
+        ],
+        "audios": [
+            "https://www.ldoceonline.com/media/english/breProns/refrigerator0205.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/ameProns/refrigerator.mp3?version=1.2.45"
+        ],
+        "exams": [
+            "• But of course simply having refrigerators which can hold food at between 0 and +5 degrees C isn't enough.",
+            "• Beside the door was an immense refrigerator.",
+            "• I told you put the bread in the refrigerator... keep it fresh.",
+            "• Store the dressing in a covered container in the refrigerator for as long as 1 week.",
+            "• Keep in the refrigerator and use within 3 days.",
+            "• Put in the refrigerator to set for an hour or more.",
+            "• There were a lot of strange noises like the sound of the refrigerator unit going on and off in the trailer.",
+            "• Then he went into the kitchen, opened the refrigerator, and found some orange juice and a loaf of bread."
+        ]
+    }, {
+        "word": "cheer",
+        "mean": "reo hò",
+        "syllable": "cheer",
+        "wordFam": {
+            "wordFamilyRaw": [],
+            "wordFamily": [
+                "cheer"
+            ]
+        },
+        "pronounce": "tʃɪə",
+        "type": "noun",
+        "definitions": [
+            " a shout of happiness, praise, approval, or encouragement",
+            " a feeling of happiness and confidence",
+            " a special chant (=phrase that is repeated) that the crowds at a US sports game shout in order to encourage their team to win",
+            " to shout as a way of showing happiness, praise, approval, or support of someone or something",
+            " to make someone feel more hopeful when they are worried",
+            "a type of detergent for washing clothes, sold in the US"
+        ],
+        "audios": [
+            "https://www.ldoceonline.com/media/english/breProns/ld45cheer.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/ameProns/ld45cheer.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653305.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653309.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653313.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001075004.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653319.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/breProns/ld45cheer_1.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/ameProns/ld45cheer_1.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001075027.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653326.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653327.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001075036.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653328.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/exaProns/p008-001653333.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/breProns/ld5_cheer.mp3?version=1.2.45",
+            "https://www.ldoceonline.com/media/english/ameProns/ld5_cheer.mp3?version=1.2.45"
+        ],
+        "exams": [
+            "• The men stiffened up to the color line, charged forward with a cheer, and drove back the enemy.",
+            "• Nabers asks the seniors to come up with a cheer to break the huddle.",
+            "• Each remark is greeted by laughter and cheers and applause.",
+            "• Let's all give a big cheer for the newly married couple! Hip, hip, hooray!",
+            "• Probably the biggest cheer of the evening was for General Powell.",
+            "• The rise in U.S. exports is certain to bring cheer to manufacturers.",
+            "• A deafening cheer rose from the crowd as the band walked onto the stage.",
+            "• Uncle Hamish was already rising from his seat, looking positively twinkly with health and good cheer.",
+            "• A great cheer went up when the first goal was scored.",
+            "• An ironic cheer arose from the crowd round the bar.",
+            "• A startled cheer erupted from the crowd.",
+            "• The cheer, \"Go Lions Go!\" could be heard for over half a mile.",
+            "• The cheering went on for ages as the victorious athletes ran around the track.",
+            "• Then they raised their hands in the air and gave three cheers.",
+            "• Three cheers for the next Governor of Nebraska!",
+            "• The audience filled the theater with cheers.",
+            "• We ate them with cheer in the grace of confinement.",
+            "• As they neared James River and caught sight of our gunboats, a cheer went up from each regiment.",
+            "• A cheer went up as Joe was lifted on a stretcher and carried from the van into the house.",
+            "• A cheer went up from 1,000 throats, greeting the floating city as it towered above Clydebank Town Hall.",
+            "• A cheer went up from the Democratic side when the amendment was voted down.",
+            "• A cheer went up from the worshippers, who donned masks of animal heads.",
+            "• I hit the ball well and a very loud cheer went up.",
+            "• When he reached the top, a thunderous cheer went up.",
+            "• A wild cheer went up from the people standing on the other side of the street.",
+            "• Proceed with caution and good cheer, all Libras.",
+            "• The handsome, smiling face exuded confidence and good cheer.",
+            "• Uncle Hamish was already rising from his seat, looking positively twinkly with health and good cheer.",
+            "• And despite their efforts at good cheer, the atmosphere in the dang now was somber.",
+            "• The men had gone to bed in a rare mood of good cheer but were abruptly awakened in the early morning hours.",
+            "• All that semblance of seasonal good cheer.",
+            "• On both their parts, it seems, the good cheer was a facade for the benefit of the other.",
+            "• A bundle of black walked toward her, round, bobbing, and bubbling with good cheer.",
+            "• At the end, the whole audience stood up clapping and cheering.",
+            "• It's the seventh defeat for Gloucestershire in eight limited over matches, nothing to cheer about.",
+            "• Hundreds of area students cheered and screamed as the president appeared on the outdoor stage.",
+            "• Although he arrived around midnight, the streets were lined with thousands who cheered and waved as his limousine sped by.",
+            "• Kay McGovern rose to his feet, cheering appreciatively when the performance ended.",
+            "• Fans began to cheer as the teams entered the stadium.",
+            "• They identified your ten ships right away and cheered back.",
+            "• Investors were cheered by news of the merger.",
+            "• I saw the way the crowd cheered for him, and I thought, \"I want to be like that!\"",
+            "• The speaker was cheered loudly when he called for a total ban on nuclear weapons.",
+            "• He claimed he needed to cheer on his son in a local boxing tournament.",
+            "• Thousands of people lined Broadway to cheer the Yankees and celebrate their World Series triumph.",
+            "• All the mums and dads come to cheer their kids on.",
+            "• The audience were now on their feet, cheering wildly.",
+            "• But Norman Lamont can not cheer yet."
+        ]
+    }, {
         "word": "implement",
         "mean": "thực hiện",
         "syllable": "im‧ple‧ment",
@@ -170,7 +288,7 @@
         ]
     }, {
         "word": "progress",
-        "mean": "thực hiện",
+        "mean": "phát triển",
         "syllable": "pro‧gress",
         "wordFam": {
             "wordFamilyRaw": [

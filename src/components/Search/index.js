@@ -1,4 +1,4 @@
-import MultiPlayer from "../../components/MultiPlayer";
+import MultiPlayer from "../MultiPlayer";
 import "./Search.css";
 function Search(props) {
   const data = props.data;

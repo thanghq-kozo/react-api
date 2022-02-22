@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 // import axios from "axios";
-import Search from "../Search";
+import Search from "../../components/Search";
 import data from "../../data.json";
 
 function HomePage() {

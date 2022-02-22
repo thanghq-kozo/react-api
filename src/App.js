@@ -1,14 +1,23 @@
-// import Exercise from "./pages/Exercise";
+import ReviewVI from "./pages/ReviewVI";
 import HomePage from "./pages/Home";
 import { useState } from "react";
-import Review from "./pages/Review";
+import ReviewEN from "./pages/ReviewEN";
+import Header from "./components/Header";
 
 function App() {
-  const [review, setReview] = useState(true)
+  const [reviewEN, setReviewEN] = useState(false);
+  const [reviewVI, setReviewVI] = useState(false);
+
   return (
     <div>
-      {review ? <Review setReview={setReview}/> : <HomePage/>}
-      {/* <Exercise/> */}
+      <Header setReviewEN={setReviewEN} setReviewVI={setReviewVI} />
+      {(!reviewEN && !reviewVI) && <HomePage />}
+      {reviewEN && (
+        <ReviewEN setReviewEN={setReviewEN} setReviewVI={setReviewVI} />
+      )}
+      {reviewVI && (
+        <ReviewVI setReviewVI={setReviewVI} setReviewEN={setReviewEN} />
+      )}
     </div>
   );
 }

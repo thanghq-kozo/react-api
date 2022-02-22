@@ -1,0 +1,23 @@
+.main-header {
+    height: 72px;
+}
+
+.navbar-light{
+    height: 72px;
+}
+
+.navbar {
+    height: 72px;
+}
+
+.bg-light {
+    height: 72px;
+}
+
+.navbar-brand {
+    margin: 4px;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
